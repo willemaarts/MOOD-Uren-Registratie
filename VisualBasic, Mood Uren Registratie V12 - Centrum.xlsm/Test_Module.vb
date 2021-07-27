@@ -39,6 +39,7 @@ End Sub
 
 Private Sub test()
 
-    ActiveCell.value = CVErr(xlErrValue)
-
+    'ActiveCell.value = CVErr(xlErrValue)
+    ActiveSheet.Delete
+    
 End Sub
